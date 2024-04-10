@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106, 37, 181);
+}
+
+.gridbox{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 0;
+    min-height: 300px;
+    min-width: 300px;
+
+}
+.box{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 1px;
+}
+
+.hover{
+    background-color: red;
+}
