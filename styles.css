@@ -7,22 +7,11 @@ body{
 }
 
 .gridbox{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 0;
+    background-color: black;
     min-height: 300px;
     min-width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
 
-}
-.box{
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    margin: 1px;
-}
-
-.hover{
-    background-color: red;
 }
